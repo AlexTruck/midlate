@@ -1,5 +1,5 @@
 # Change these
-server '45.55.137.18', port: 6272, roles: [:web, :app, :db], primary: true
+server '45.55.137.18', port: 5272, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:AlexTruck/midlate.git'
 set :application,     'midlate'
